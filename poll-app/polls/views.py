@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse 
 from .models import Questions
 from django.template import loader
@@ -14,7 +14,8 @@ def home(request):
     return HttpResponse('<h1>Home Screen</h1>')
 
 def detail(request, question_id):
-    return HttpResponse("You're looking for question %s." %question_id)
+    question = get_object_or_404(Questions, pk=question_id)
+    return render(request, "polls/detail.html", {"question":question})
 
 def results(request, question_id):
     response = "You're looking for result of a question %s"
