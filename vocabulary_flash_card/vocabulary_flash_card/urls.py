@@ -1,5 +1,5 @@
 """
-URL configuration for mysite project.
+URL configuration for vocabulary_flash_card project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/6.0/topics/http/urls/
@@ -17,8 +17,9 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from . import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("students/", include("students.urls"))
+    path('', views.home_page, ),
 ]

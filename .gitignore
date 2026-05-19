@@ -1,2 +1,18 @@
 # IDE file name
 .idea/
+# Python
+__pycache__/
+*.pyc
+
+# SQLite database
+db.sqlite3
+*.sqlite3
+
+# Environment
+.env
+venv/
+denv/
+
+# Django
+staticfiles/
+media/
