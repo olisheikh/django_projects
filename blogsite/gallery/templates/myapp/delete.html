@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h2> Delete Blog Post </h2>
+        <form method='post'>
+            {% csrf_token %}
+            {{form.as_p}}
+            <button type='submit'>Save Change </button>
+    </body>
+</html>

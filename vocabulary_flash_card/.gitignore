@@ -1,0 +1,10 @@
+venv/
+.env
+db.squlite3
+__pycache__
+*.pyc
+media/
+staticfiles/
+.DS_Store
+.idea/
+.vscode/
