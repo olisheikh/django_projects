@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
                 ("student_id", models.IntegerField()),
             ],
             options={
-                "db_table": "student",
+                "db_table": "student2",
             },
         ),
     ]

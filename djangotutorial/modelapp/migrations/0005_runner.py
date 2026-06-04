@@ -11,7 +11,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name="Runner",
+            name="Runner2",
             fields=[
                 (
                     "id",

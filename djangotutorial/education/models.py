@@ -13,3 +13,6 @@ class Student(models.Model):
     
     def __str__(self):
         return self.student_name
+    
+    class Meta:
+        db_table = 'student3'
