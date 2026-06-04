@@ -1,0 +1,15 @@
+<h2>{{product.product_name}}</h2>
+<p>{{product.product_description}}</p>
+<label>Created At</label>
+<input type="date" name="created_at" value="{{product.created_at|date:'Y-m-d'}}" disabled>
+<label>Last Modified</label>
+<input type="date" name="last_modified" value="{{product.last_modified|date:'Y-m-d'}}" disabled>
+<p>Product Quantity: {{product.product_quantity}}</p>
+<p>Product Category: {{product.product_category}}</p>
+
+{% comment %} product_name = models.CharField(max_length=20)
+    product_description = models.TextField(max_length=255)
+    created_at = models.DateTimeField(auto_now_add=True)
+    last_modified = models.DateTimeField(auto_now=True)
+    product_quantity = models.IntegerField()
+    product_category = models.CharField(max_length=20) {% endcomment %}

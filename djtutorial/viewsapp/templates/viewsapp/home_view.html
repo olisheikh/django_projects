@@ -1,0 +1,36 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+  </head>
+  <body>
+    {%for i in products%}
+    <div class="product-div" data-id="{{ i.id }}">
+      <h2>{{i.product_name}}</h2>
+      <p>{{i.description}}</p>
+      <p><b>{{i.created_at}}</b></p>
+      <p>{{i.category}}</p>
+    </div>
+    <div>
+      <a href="{% url 'product_edit' i.id %}">
+        <button>Edit</button>
+      </a>
+      <a href="{% url 'product_delete' i.id %}">
+        <button>Delete</button>
+      </a>
+      <br /><br />
+    </div>
+    {%endfor%}
+    <a href="{% url 'add_product' %}">
+      <button type="button">Add Product</button>
+    </a>
+
+    <a href="{% url 'product_api' %}">
+      <button type="button">Product API</button>
+    </a>
+    <script src="{% static 'js/product_list.js'%}"></script>
+  </body>
+</html>
