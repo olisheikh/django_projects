@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ea232e7-1e64-474a-b8ec-16cc17294c7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweets/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice_app/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,65 @@
     &quot;accountId&quot;: &quot;4e79ede3-5343-49a8-8922-38998d62cf2f&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.4980702686746068" />
+      <entry key="MS500" value="4.140867627584593" />
+      <entry key="S2" value="10.12365226272417" />
+      <entry key="S5" value="15.90823773273151" />
+      <entry key="S10" value="19.30551309843121" />
+      <entry key="S30" value="22.259392488509818" />
+      <entry key="S60" value="23.122564513249625" />
+      <entry key="M2" value="24.859222965290193" />
+      <entry key="M5" value="42.24485960232395" />
+      <entry key="M10" value="75.50735674515906" />
+      <entry key="M15" value="105.9493516864572" />
+      <entry key="M30" value="173.4246099989282" />
+      <entry key="H1" value="239.38782505084583" />
+      <entry key="H2" value="287.0949870856559" />
+      <entry key="H4" value="316.01079485891535" />
+      <entry key="D1" value="343.19339863660343" />
+      <entry key="W1" value="348.1625751517853" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="4.17049729461791E-289" />
+      <entry key="S5" value="4.447082000193569E-116" />
+      <entry key="S10" value="2.1088105652698033E-58" />
+      <entry key="S30" value="5.952222943865451E-20" />
+      <entry key="S60" value="2.4397178000468505E-10" />
+      <entry key="M2" value="1.5619596025655843E-5" />
+      <entry key="M5" value="0.01195275228235302" />
+      <entry key="M10" value="0.10932864346708498" />
+      <entry key="M15" value="0.2286419803200723" />
+      <entry key="M30" value="0.4781652228258258" />
+      <entry key="H1" value="0.6914949188720236" />
+      <entry key="H2" value="0.831561734853175" />
+      <entry key="H4" value="0.9119000684577095" />
+      <entry key="D1" value="0.9847467164904777" />
+      <entry key="W1" value="0.9978065788579419" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.4388813020256048" />
+      <entry key="MS500" value="4.111536504515622" />
+      <entry key="S2" value="10.105768609021169" />
+      <entry key="S5" value="15.897185216974046" />
+      <entry key="S10" value="19.29886554611022" />
+      <entry key="S30" value="22.256854732372105" />
+      <entry key="S60" value="23.121247768712504" />
+      <entry key="M2" value="24.858468338496763" />
+      <entry key="M5" value="42.25506817538621" />
+      <entry key="M10" value="75.61010035525942" />
+      <entry key="M15" value="106.16763617419485" />
+      <entry key="M30" value="173.88974505609463" />
+      <entry key="H1" value="240.06878253290884" />
+      <entry key="H2" value="287.9198202620875" />
+      <entry key="H4" value="316.91888936243316" />
+      <entry key="D1" value="344.1774421543019" />
+      <entry key="W1" value="349.16027947669795" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -37,23 +95,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/models&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/torikulislamoli/Library/CloudStorage/GoogleDrive-olisheikh707@gmail.com/My Drive/Torikul Islam Oli/Code/Projects/Django/practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "feature/restaurant",
+    "last_opened_file_path": "/Users/torikulislamoli/Library/CloudStorage/GoogleDrive-olisheikh707@gmail.com/My Drive/Torikul Islam Oli/Code/Projects/Django/practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
